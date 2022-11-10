@@ -27,6 +27,16 @@ git add A
 git status
 git diff 
 git diff --staged
+git log 				it displays the all commit history with commitid,date,author,commit msg details.
+git log -1                              it displays recent commit log we can see one or more logs with number specified.
+git log --oneline			it displays git logs in a single line.
+git log --stats				it displays detailed view of the commits.
+git log --patch				it displays similar as git diff and gives more information then git diff .
+git rm <filename>			used to remove or deleted the files form the project.
+gti rm --cached <filename>		used to remove from project but still it won't delete's the file saved as untracked file.
+git mv 					used to rename a file.
+git checkout -b <branchname>		used to checkout to new branch by createing the new branch.
+git branch <brachname>			to create a new branch.
 ===========================================================================================================================================================
 
 Commited    	|		unmodified changes from the last commit snapshot.
