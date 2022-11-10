@@ -16,3 +16,33 @@ Git is a distributed version control System also called as a VCS(Version Control
  							|						|	
  							|						|
  							
+git add . | git add <filename> | git add -all  used to add the files to stageing area.
+git commit -m "msg"      used to commit the files this command moves the all changes of files in local repo.
+git remote add origin <repo-link> 	to add the a remote repo so we can push your files into the remote repo.
+git remote -v 				to see avialible remote repo's .
+git remote rm origin                    to remove the remote repo.
+git status --short | git status -s         gives the git status short way . 
+git commit -a -m			we can add and also commit at a same with this command.
+git add A
+git status
+git diff 
+git diff --staged
+===========================================================================================================================================================
+
+Commited    	|		unmodified changes from the last commit snapshot.
+
+Modified 	|		changes made to files since last commit snapshot.
+
+Staged  	|		changes marked to be added into the next commit snapshot.
+
+
+==============================================================================================================================================================
+
+
+		
+		
+		
+		
+
+		
+		
