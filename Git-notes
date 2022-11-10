@@ -25,8 +25,11 @@ git status --short | git status -s         gives the git status short way .
 git commit -a -m			we can add and also commit at a same with this command.
 git add A
 git status
-git diff 
+git diff 				changed and not staged for commit?
 git diff --staged
+git diff --cached			changed and staged for commit?
+git diff HEAD				changed since last commit?
+git diff -w 				ignore whitespace differences
 git log 				it displays the all commit history with commitid,date,author,commit msg details.
 git log -1                              it displays recent commit log we can see one or more logs with number specified.
 git log --oneline			it displays git logs in a single line.
@@ -45,6 +48,9 @@ git merge <branchname>
 git reset --soft 			brings the code from repo to staging area.
 git reset --mixed                       brings the code from repo to working directory.
 git reset --hard			deleted the all files in the repo very dangerous to use.
+git branch -m <branchname> <newbranchname>  to rename the branch name 
+git branch -d <branchname>			to delete the branch that all code is merged to another.
+git branch -D <branchname>                         to delete the branch forcfully .
 ===========================================================================================================================================================
 
 Commited    	|		unmodified changes from the last commit snapshot.
