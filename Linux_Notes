@@ -1,0 +1,44 @@
+What is Linux?
+ Just like Windows, iOS, and Mac OS, Linux is an operating system. In fact, one of the most popular platforms on the planet, Android, is powered by the Linux operating system. An operating system is software that manages all of the hardware resources associated with your desktop or laptop. To put it simply, the operating system manages the communication between your software and your hardware. Without the operating system (OS), the software wouldn’t function.
+
+The Linux operating system comprises several different pieces:
+
+1.Bootloader –  The software that manages the boot process of your computer. For most users, this will simply be a splash screen that pops up and eventually goes away to boot into the operating system.
+
+2.Kernel – This is the one piece of the whole that is actually called ‘Linux’. The kernel is the core of the system and manages the CPU, memory, and peripheral devices. The kernel is the lowest level of the OS.
+
+3.Init system – This is a sub-system that bootstraps the user space and is charged with controlling daemons. One of the most widely used init systems is systemd, which also happens to be one of the most controversial. It is the init system that manages the boot process, once the initial booting is handed over from the bootloader (i.e., GRUB or GRand Unified Bootloader).
+
+4.Daemons – These are background services (printing, sound, scheduling, etc.) that either start up during boot or after you log into the desktop.
+
+5.Graphical server – This is the sub-system that displays the graphics on your monitor. It is commonly referred to as the X server or just X.
+
+6.Desktop environment – This is the piece that the users actually interact with. There are many desktop environments to choose from (GNOME, Cinnamon, Mate, Pantheon, Enlightenment, KDE, Xfce, etc.). Each desktop environment includes built-in applications (such as file managers, configuration tools, web browsers, and games).
+ 
+7.Applications – Desktop environments do not offer the full array of apps. Just like Windows and macOS, Linux offers thousands upon thousands of high-quality software titles that can be easily found and installed. Most modern Linux distributions (more on this below) include App Store-like tools that centralize and simplify application installation. For example, Ubuntu Linux has the Ubuntu Software Center (a rebrand of GNOME Software) which allows you to quickly search among the thousands of apps and install them from one centralized location.
+
+How Does Open source Work?
+
+Linux is also distributed under an open source license. Open source follows these key tenets:
+
+* The freedom to run the program, for any purpose.
+* The freedom to study how the program works, and change it to make it do what you wish.
+* The freedom to redistribute copies so you can help your neighbor.
+* The freedom to distribute copies of your modified versions to others.
+
+These points are crucial to understanding the community that works together to create the Linux platform. Without a doubt, Linux is an operating system that is “by the people, for the people”. These tenets are also a main factor in why many people choose Linux. It’s about freedom and freedom of use and freedom of choice.
+
+What is the Linux kernel?
+  The Linux® kernel is the main component of a Linux operating system (OS) and is the core interface between a computer’s hardware and its processes. It communicates between the 2, managing resources as efficiently as possible.
+
+ The kernel is so named because—like a seed inside a hard shell—it exists within the OS and controls all the major functions of the hardware, whether it’s a phone, laptop, server, or any other kind of computer.
+ What the kernel does
+The kernel has 4 jobs:
+1.Memory management: Keep track of how much memory is used to store what, and where
+
+2.Process management: Determine which processes can use the central processing unit (CPU), when, and for how long
+
+3.Device drivers: Act as mediator/interpreter between the hardware and processes 
+
+4.System calls and security: Receive requests for service from the processes
+

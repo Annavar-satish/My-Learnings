@@ -1,0 +1,11 @@
+timedatectl  - controls the system date and time
+timedatectl status		-	Show current time settings
+timedatectl show		-	to Show properties of systemd-timedated
+timedatectl settime <time>	-	to set system time
+timedatectl settimezone <zone>	-	to set sysytem time zone
+timedatectl list-timezones	-	shows known time zones
+less		- 	is a command used to see the content of a line by being in side the file
+ls 		-	Lists all files and directories in the present working directory
+ls -R		-	Lists files in sub-directories as well
+pwd		-	Disply the present directory
+tty 		-	

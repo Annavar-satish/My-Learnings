@@ -1,0 +1,18 @@
+What Is GIT?   
+
+Git is a distributed version control System also called as a VCS(Version Control System)
+
+-->  Software designed to record changes made to files over time.
+-->  Ability to revert back to a previous file version or project version.
+-->  Compare changes made to files from one version to another.
+-->  Version Control any plain yext file, not just source code.
+ 
+ 	Working Directory				|	Staging Area				|	.git directory
+ 							|	(Index)					|	(Repository)
+ 	changes to files since the 			|						|	
+ 	last checkout have not yet been 		|	Files in this state have been		|	Files in this state are commited 
+ 	added to the staging area for commit.		|	modified and added to be staged in 	|	and recorded to the project as version 
+ 							|	the next commit snapshot.		|	snapshots.
+ 							|						|	
+ 							|						|
+ 							

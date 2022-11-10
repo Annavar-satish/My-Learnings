@@ -1,0 +1,13 @@
+Dockerfile Script 
+
+FROM ubuntu:latest #base image
+MAINTAINER D Clinton
+info@bootstrap-it.com
+RUN apt-get Update  #run is coomand bascillay runs commands afetr booting
+RUN apt-get install -y apache2
+ADD index.html /var/www/html/  #adding files to location we specify 
+CMD /usr/sbin/apache2ctl -D
+FOREGROUND
+EXPOSE 80 #to define any ports to open
+
+
