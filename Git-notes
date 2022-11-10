@@ -37,6 +37,7 @@ gti rm --cached <filename>		used to remove from project but still it won't delet
 git mv 					used to rename a file.
 git checkout -b <branchname>		used to checkout to new branch by createing the new branch.
 git branch <brachname>			to create a new branch.
+git stash 
 ===========================================================================================================================================================
 
 Commited    	|		unmodified changes from the last commit snapshot.
