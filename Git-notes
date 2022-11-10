@@ -38,6 +38,13 @@ git mv 					used to rename a file.
 git checkout -b <branchname>		used to checkout to new branch by createing the new branch.
 git branch <brachname>			to create a new branch.
 git stash 
+git stash list
+git stash show
+git stash pop
+git merge <branchname>
+git reset --soft 			brings the code from repo to staging area.
+git reset --mixed                       brings the code from repo to working directory.
+git reset --hard			deleted the all files in the repo very dangerous to use.
 ===========================================================================================================================================================
 
 Commited    	|		unmodified changes from the last commit snapshot.
