@@ -1,0 +1,16 @@
+
+Changing mode from one to another
+
+From command mode to insert mode type a/A/i/I/o/O ( see details below)
+
+From insert mode to command mode type Esc (escape key)
+
+Some useful commands for VIM
+
+Text Entry Commands (Used to start text entry)
+
+a Append text following current cursor position
+
+A Append text to the end of current line
+
+i Insert text before the current cursor position
